@@ -23,15 +23,6 @@ import { RouterModule } from '@angular/router';
   imports:[RouterModule, 
            CommonModule,
            ReactiveFormsModule, 
-           RecipesRoutingModule],
-  exports: [
-    RecipesComponent,
-    RecipeListComponent,
-    RecipeDetailComponent,
-    RecipeItemComponent,
-    RecipeStartComponent,
-    RecipeEditComponent
-
-  ] 
+           RecipesRoutingModule]
 })
 export class RecipesModule{}
